@@ -171,7 +171,6 @@ clear
 #figlet  *FREE*
 #figlet  *2020*
 df
-mv -f multiscript.sh /bin/mix
 echo ""
 msg -bar
 echo -e "\e[1;37m	MENÚ DE OPCIONES"
@@ -228,5 +227,6 @@ mix
 ;;
 #
 esac
+mv -f multiscript.sh /bin/mix
 rm -rf multiscript.sh
 rm -rf .bash_history
