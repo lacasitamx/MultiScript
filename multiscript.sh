@@ -11,7 +11,7 @@ rm -rf .bash_history
 #
 #SCRIPT INTERNO BY KALIX1
 #SCRIPT DANKELTHAHER
-#SCRIPT POWER MX V3.5
+#SCRIPT POWER MX V5.8
 #SCRIPT SSHPLUS BY CRAZY VPN
 #adm-mx reaper
 #TESTIANDO SCRIPT
@@ -180,18 +180,18 @@ echo -e "\e[1;31m \e[1;100m@conectedmx_vip   =    @conectedmx\e[0m"
 msg -bar
 #
 echo -e "\e[1;37m	INSTALACIONES SIN KEY"
-echo -e "\e[1;43m	CRÉDITOS: @LA-CASITA\e[0m" #LOS CRÉDITOS A LA OFICIAL DE LA CASITA DEL TERROR 
+echo -e "	\e[1;43mCRÉDITOS: @LA-CASITA\e[0m" #LOS CRÉDITOS A LA OFICIAL DE LA CASITA DEL TERROR 
 msg -bar
 
 echo -e "\e[1;31m {-1-} \e[1;33m VPSMX BY KALIX1 8.1 \e[1;37m| \e[1;31m(CASITA)" #by kalix
 echo -e "\e[1;31m {-2-} \e[1;33m VPSMX BY KALIX1 8.2 \e[1;37m| \e[1;31m (REPOFICIAL)" #by kalix ....
 echo -e "\e[1;31m {-3-} \e[1;33m NEWADM DANKELTHAHER \e[1;37m| \e[1;31m(OFF)" #by dankelthaher
-echo -e "\e[1;31m {-4-} \e[1;33m VPSPACK 5.8        \e[1;37m| \e[1;31m(PWRMX)" #by illuminati #creditos: powermx
+echo -e "\e[1;31m {-4-} \e[1;33m VPSPACK 5.8         \e[1;37m| \e[1;31m(PWRMX)" #by illuminati #creditos: powermx
 #sshplus -testeo pueda que no funcione correctamente
-echo -e "\e[1;31m {-5-} \e[1;33m SSHPLUS (ES)       \e[1;37m| \e[1;31m(Mod CASITA)" #creditos: illuminati & crazyvpn
-echo -e "\e[1;31m {-6-} \e[1;33m SSHPLUS (v32)      \e[1;37m| \e[1;31m(CRAZY)" #BY CRAZY_VPN
-echo -e "\e[1;31m {-7-} \e[1;33m SSHPLUS (v32)      \e[1;37m| \e[1;31m(REV ILUMINATIS)" #BY iluminatis
-echo -e "\e[1;31m {-8-} \e[1;33m ADM-MX MOD         \e[1;37m| \e[1;31m(SIXREAPER)" #mod de kalix
+echo -e "\e[1;31m {-5-} \e[1;33m SSHPLUS (ES)        \e[1;37m| \e[1;31m(Mod CASITA)" #creditos: illuminati & crazyvpn
+echo -e "\e[1;31m {-6-} \e[1;33m SSHPLUS (v32)       \e[1;37m| \e[1;31m(CRAZY)" #BY CRAZY_VPN
+echo -e "\e[1;31m {-7-} \e[1;33m SSHPLUS (v32)       \e[1;37m| \e[1;31m(REV ILUMINATIS)" #BY iluminatis
+echo -e "\e[1;31m {-8-} \e[1;33m ADM-MX MOD          \e[1;37m| \e[1;31m(SIXREAPER)" #mod de kalix
 msg -bar
 echo -e "\e[1;31m {-9-} \e[1;37m ACTUALIZAR PAQUETES -UPDATE -(opcional)" #actualizar los paquetes por favor
 msg -bar
