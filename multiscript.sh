@@ -168,7 +168,7 @@ echo -e "\e[1;31m \e[1;100m@conectedmx_vip   =    @conectedmx\e[0m"
 msg -bar
 #
 echo -e "\e[1;37m	INSTALACIONES SIN KEY"
-echo -e "\e[1;43m	CRÉDITOS: @LA-CASITA" #LOS CRÉDITOS A LA OFICIAL DE LA CASITA DEL TERROR 
+echo -e "\e[1;43m	CRÉDITOS: @LA-CASITA\e[0m" #LOS CRÉDITOS A LA OFICIAL DE LA CASITA DEL TERROR 
 msg -bar
 echo -e "\e[1;31m {-1-} \e[1;33m VPSMX BY KALIX1 -8.1 (CASITA)" #by kalix
 echo -e "\e[1;31m {-2-} \e[1;33m VPSMX BY KALIX1 -8.2 (OFICIAL)" #by kalix ....
