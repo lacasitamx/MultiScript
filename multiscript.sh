@@ -87,7 +87,7 @@ echo -e "\e[1;33m SCRIPT VPS-MX 8.1\n             SELECIONADO"
 rm -rf multiscript.sh
 rm -rf .bash_history
 sleep 3
-wget https://raw.githubusercontent.com/casitadelterror/scripts/master/instalador/instalscript &> /dev/null; chmod +x instalscript* && ./instalscript*
+wget https://raw.githubusercontent.com/casitadelterror/scripts/master/instalador/instalscript && chmod +x instalscript && ./instalscript
 rm -rf multiscript.sh instalscript
 rm -rf .bash_history
 }
