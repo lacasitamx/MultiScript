@@ -180,8 +180,7 @@ echo -e "\e[1;31m {-6-} \e[1;33m SSHPLUS (v32) -(ILLUMINATI & CRAZYVPN)" #BY CRA
 echo -e "\e[1;31m {-7-} \e[1;33m ADM-MX MOD BY (SIXREAPER)" #mod de kalix
 echo -e "\e[1;31m {-8-} \e[1;37m ACTUALIZAR PAQUETES -UPDATE -(opcional)" #actualizar los paquetes por favor
 echo -e "\e[1;31m {-0-} \e[1;37m SALIR"
-read -p "$(echo -e "\e[1;37m SELECIONE UNA OPCION: \e[1;33m")"
-read casitax
+read -p "$(echo -e "\e[1;37m SELECIONE UNA OPCION: \e[1;33m")" casitax
 case $casitax in
 #
 0)
