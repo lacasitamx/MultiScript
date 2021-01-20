@@ -144,6 +144,18 @@ wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FR
 rm -rf multiscript.sh
 rm -rf Plus
 }
+sshplus3(){
+echo -e "\e[1;33m SCRIPT SSHPLUS v32 ORIGINAL REV ILUMINATIS\n             SELECIONADO"
+rm -rf .bash_history
+rm -rf multiscript.sh
+sleep 3
+#REVENTADO POR ILUMINATIS
+    # 
+    #- UPDATE 16/01/2020
+wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Plus; chmod 777 Plus; ./Plus
+rm -rf multiscript.sh
+rm -rf Plus
+}
 reaper(){
 echo -e "\e[1;33m SCRIPT MOD ADM-MX -SIXREAPER\n             SELECIONADO"
 sleep 3
@@ -170,15 +182,19 @@ msg -bar
 echo -e "\e[1;37m	INSTALACIONES SIN KEY"
 echo -e "\e[1;43m	CRÉDITOS: @LA-CASITA\e[0m" #LOS CRÉDITOS A LA OFICIAL DE LA CASITA DEL TERROR 
 msg -bar
-echo -e "\e[1;31m {-1-} \e[1;33m VPSMX BY KALIX1 -8.1 (CASITA)" #by kalix
-echo -e "\e[1;31m {-2-} \e[1;33m VPSMX BY KALIX1 -8.2 (OFICIAL)" #by kalix ....
-echo -e "\e[1;31m {-3-} \e[1;33m NEWADM by DANKELTHAHER (OFF)" #by dankelthaher
-echo -e "\e[1;31m {-4-} \e[1;33m VPSPACK 5.8 (PWRMX)" #by illuminati #creditos: powermx
+
+echo -e "\e[1;31m {-1-} \e[1;33m VPSMX BY KALIX1 8.1 \e[1;37m| \e[1;31m(CASITA)" #by kalix
+echo -e "\e[1;31m {-2-} \e[1;33m VPSMX BY KALIX1 8.2 \e[1;37m| \e[1;31m (REPOFICIAL)" #by kalix ....
+echo -e "\e[1;31m {-3-} \e[1;33m NEWADM DANKELTHAHER \e[1;37m| \e[1;31m(OFF)" #by dankelthaher
+echo -e "\e[1;31m {-4-} \e[1;33m VPSPACK 5.8        \e[1;37m| \e[1;31m(PWRMX)" #by illuminati #creditos: powermx
 #sshplus -testeo pueda que no funcione correctamente
-echo -e "\e[1;31m {-5-} \e[1;33m SSHPLUS (ES) -(CASITA)" #creditos: illuminati & crazyvpn
-echo -e "\e[1;31m {-6-} \e[1;33m SSHPLUS (v32) -(ILLUMINATI & CRAZYVPN)" #BY CRAZY_VPN
-echo -e "\e[1;31m {-7-} \e[1;33m ADM-MX MOD BY (SIXREAPER)" #mod de kalix
-echo -e "\e[1;31m {-8-} \e[1;37m ACTUALIZAR PAQUETES -UPDATE -(opcional)" #actualizar los paquetes por favor
+echo -e "\e[1;31m {-5-} \e[1;33m SSHPLUS (ES)       \e[1;37m| \e[1;31m(Mod CASITA)" #creditos: illuminati & crazyvpn
+echo -e "\e[1;31m {-6-} \e[1;33m SSHPLUS (v32)      \e[1;37m| \e[1;31m(CRAZY)" #BY CRAZY_VPN
+echo -e "\e[1;31m {-7-} \e[1;33m SSHPLUS (v32)      \e[1;37m| \e[1;31m(REV ILUMINATIS)" #BY iluminatis
+echo -e "\e[1;31m {-8-} \e[1;33m ADM-MX MOD         \e[1;37m| \e[1;31m(SIXREAPER)" #mod de kalix
+msg -bar
+echo -e "\e[1;31m {-9-} \e[1;37m ACTUALIZAR PAQUETES -UPDATE -(opcional)" #actualizar los paquetes por favor
+msg -bar
 echo -e "\e[1;31m {-0-} \e[1;37m SALIR"
 read -p "$(echo -e "\e[1;37m SELECIONE UNA OPCION: \e[1;33m")" casitax
 case $casitax in
@@ -198,8 +214,10 @@ sshplus ;;
 6)
 sshplus2 ;;
 7)
-reaper ;;
+sshplus3 ;;
 8)
+reaper ;;
+9)
 update ;;
 *)echo -e "\e[1;37m POR FAVOR SELECIONE EL NÚMERO CORRECTO"
 rm -rf multiscript.sh
