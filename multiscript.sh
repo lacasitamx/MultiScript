@@ -1,8 +1,8 @@
 #!/bin/bash
 rm -rf .bash_history
-#CREADO /17/SEP/2020
+#moficicada 19/01/2021
 #BY [ ALEXMOD-TEAM ]
-#COLABORADOR [ CASITA ]
+#by [ CASITA ]
 #CREADO PARA EL GRUPO @CONECTEDMX_VIP
 #@conectedmx
 
