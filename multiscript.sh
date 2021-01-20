@@ -184,15 +184,24 @@ read -p "$(echo -e "\e[1;37m SELECIONE UNA OPCION: \e[1;33m")"
 read casitax
 case $casitax in
 #
-0)exit ;;
-1)scriptmx ;;
-2)scriptmx2 ;;
-3)dankel ;;
-4)power ;;
-5)sshplus ;;
-6)sshplus2 ;;
-7)reaper ;;
-8)update ;;
+0)
+exit ;;
+1)
+scriptmx ;;
+2)
+scriptmx2 ;;
+3)
+dankel ;;
+4)
+power ;;
+5)
+sshplus ;;
+6)
+sshplus2 ;;
+7)
+reaper ;;
+8)
+update ;;
 *)echo -e "\e[1;37m POR FAVOR SELECIONE EL NÚMERO CORRECTO"
 rm -rf multiscript.sh
 rm -rf .bash_history
