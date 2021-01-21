@@ -64,19 +64,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
   -bar)cor="\e[1;31m——————————————————————————————————————————————————————" && echo -e "${cor}${SEMCOR}";;
  esac
 }
-df(){
-echo "
- ╭━━━╮╭━━━╮╭━━━╮╭━━╮╭━━━╮╭━━━━╮
-┃╭━╮┃┃╭━╮┃┃╭━╮┃╰┫┣╯┃╭━╮┃┃╭╮╭╮┃
-┃╰━━╮┃┃╱╰╯┃╰━╯┃╱┃┃╱┃╰━╯┃╰╯┃┃╰╯
-╰━━╮┃┃┃╱╭╮┃╭╮╭╯╱┃┃╱┃╭━━╯╱╱┃┃╱╱
-┃╰━╯┃┃╰━╯┃┃┃┃╰╮╭┫┣╮┃┃╱╱╱╱╱┃┃╱╱
-╰━━━╯╰━━━╯╰╯╰━╯╰━━╯╰╯╱╱╱╱╱╰╯╱╱
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱
-
-              "
-              }
+     
 IP=$(wget -qO- ipv4.icanhazip.com)
 systema () {
 system=$(echo $(cat -n /etc/issue |grep 1 |cut -d' ' -f6,7,8 |sed 's/1//' |sed 's/      //'))
@@ -170,8 +158,6 @@ clear
 #figlet  *SCRIPT*
 #figlet  *FREE*
 #figlet  *2020*
-df
-echo ""
 msg -bar
 echo -e "\e[1;37m	MENÚ DE OPCIONES"
 echo -e "\e[33m     MAQUINA            SISTEMA"
