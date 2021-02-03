@@ -1,5 +1,4 @@
  # MULTISCRIPT 2020
-![](https://github.com/casitadelterror/MultiScript/raw/master/imagen/20201117_161843.png)
 
 # MultiGen
 #
